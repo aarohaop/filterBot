@@ -92,7 +92,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
+VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'ez4short.xyz')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '12b2d8281afa6d870f9b44bd0cba166704c7ea50')
 # if verify second shortner is True then fill below url and api
