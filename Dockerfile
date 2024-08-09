@@ -6,7 +6,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /filterBot
-WORKDIR /filterBot
-COPY . /filterBot
+RUN mkdir /gand
+WORKDIR /gand
+COPY . /gand
 CMD ["python", "bot.py"]
