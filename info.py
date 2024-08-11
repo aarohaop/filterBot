@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'aarohaop')
 API_ID = int(environ.get('API_ID', '23048198'))
 API_HASH = environ.get('API_HASH', '3398a27e9a0c3d60657b2d7d45f31a37')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7381165088:AAEqlpVRxtc3YXzEJE3a0d_8b2htWJoUk5U")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7460243779:AAH83sQ--w9aKN9g4pb7zg3E13JwWuJW7XQ")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
